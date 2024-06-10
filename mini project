@@ -1,0 +1,37 @@
+import random
+
+# List of animals with their categories
+animals = [
+    ("Lion", "Mammal"),
+    ("Shark", "Fish"),
+    ("Eagle", "Bird"),
+    ("Frog", "Amphibian"),
+    ("Cobra", "Reptile")
+]
+
+# Categories of animals
+categories = ["Mammal", "Bird", "Fish", "Reptile", "Amphibian"]
+
+score = 0
+
+# Function to classify animals
+def classify_animal(animal):
+    name, correct_category = animal
+    print(f"Classify the animal: {name}")
+    print(f"Options: {', '.join(categories)}")
+    user_category = input("Enter the category: ").strip().title()
+    if user_category == correct_category:
+        print("Correct!\n")
+        return True
+    else:
+        print(f"Wrong! The correct category is {correct_category}.\n")
+        return False
+
+# Main program
+random_animals = random.sample(animals, len(animals))  # Randomly shuffle the animals
+for animal in random_animals:
+    if classify_animal(animal):
+        score += 1
+
+# Output the final score
+print(f"Your final score is {score} out of {len(animals)}")
