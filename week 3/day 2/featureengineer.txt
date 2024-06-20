@@ -1,0 +1,22 @@
+Feacture Engineer = 
+"Feature engineering is a crucial step in the machine learning pipeline where you create 
+new features or transform existing features from raw data to improve the performance
+of your model. It involves extracting meaningful information from your data to make it more suitable for modeling."
+
+// imporant points of feature engineeering
+
+Foundation for Success: Feature engineering is the cornerstone of building effective machine learning models. "Garbage in, garbage out" applies – the quality of your features directly impacts model performance.
+
+Data Transformation: Raw data often needs cleaning, normalization, and handling of missing values before feeding it to a model. Feature engineering tackles these preprocessing steps.
+
+Feature Selection: Not all data points are equally important. Choosing the most relevant features that best represent the problem helps models learn more efficiently.
+
+Feature Creation: Deriving new features from existing ones can unlock hidden patterns and relationships within the data. This can significantly boost model performance.
+
+Understanding the Problem: Feature engineering choices heavily depend on the specific machine learning task at hand.  A deep understanding of the problem is crucial.
+
+Domain Knowledge is Key:  Incorporating knowledge about the data domain helps identify the most informative features and avoid irrelevant ones.
+
+Iterative Process: Feature engineering is rarely a one-shot deal. As you develop and test your model, revisit and refine your feature choices based on results.
+
+Bias Awareness: Be cautious of introducing bias during feature engineering. Unequal representation in data or feature selection can skew model predictions.
