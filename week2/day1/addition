@@ -1,4 +1,5 @@
-# addition
 
-def add(x, y):
-    return x + y
+import mymodule
+
+print(mymodule.greet("Gourav Vyas"))
+print(mymodule.add(4, 4))
