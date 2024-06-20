@@ -21,8 +21,6 @@ identity_mat = np.eye(3)  # 3x3 identity matrix
 print("\nIdentity Matrix:")
 print(identity_mat)
 
-import numpy as np
-
 # Reshaping arrays
 arr7 = np.arange(1, 10)  # Create an array from 1 to 9
 print("Original Array:")
@@ -37,8 +35,6 @@ print(reshaped_arr)
 transposed_arr = reshaped_arr.T
 print("\nTransposed Matrix:")
 print(transposed_arr)
-
-import numpy as np
 
 # Random number generation with NumPy
 # Generate a random float between 0 and 1
@@ -55,8 +51,6 @@ print(rand_int)
 normal_dist = np.random.normal(0, 1, size=(3, 3))  # Mean 0, standard deviation 1
 print("\nRandom Numbers from Normal Distribution:")
 print(normal_dist)
-
-import numpy as np
 
 # Array indexing and slicing
 arr5 = np.array([10, 20, 30, 40, 50])
