@@ -1,0 +1,21 @@
+'''=========  standerizilation======''' 
+data preprocessing => 
+=feature engineering (column)  => 
+
+feature scalling => 
+
+age      salary 
+(0-100)  (78,98000,100000)
+
+distance(d)=[100] , high range 
+
+
+formula => x-in /std 
+
+feature sandaerlization  
+
+normalization => 
+
+teacher => teaching datta training 
+
+exams => quesion => texting =>output 
