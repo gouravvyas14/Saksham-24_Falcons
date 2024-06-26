@@ -1,0 +1,42 @@
+outlier => a value which are (unique Identity)  | beyond the limit
+
+1.trimming=>lower , maximum ,drop
+10,100 => outside value are remove 
+
+5000,2000 =>3000
+
+2.copping=> lower, maximum
+
+(10,100 )=> outlier value (-20) its   conver in (10)
+outlier 200 =>100 me 
+min=> 10 (this is actual value ) ,-20(this is outlier value ) 
+max=> outside
+
+
+z  score===>  xi -meann/standard deviation 
+=============
+by example of gausian graph :
+
+height, orice,marks(low,avg,high),percentage=> 
+0-30 %==>fail
+30-40% ==> avg than lower
+60-70 % ==> avg
+70-80% ==> good
+100%==> excellent
+===============
+
+
+in copping 
+
+np.where ==>this is onl findout value
+replace the limit
+
+
+in box plot value distribtion :
+min(Q1-1.5*IQR) ,25% (Q1),50,75(Q3) % max(Q3+1.5*IQR)
+
+
+formula of outlier 
+
+ The formula for the upper fence is Q3 + 1.5(IQR),
+  and the formula for the lower fence is Q1 - 1.5(IQR).
