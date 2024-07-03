@@ -1,0 +1,11 @@
+
+==========installation and running process of jupyter nptebook =====
+
+covid 19 -analysis
+
+
+supervised
+regression [linear] y => numerical
+
+classification => logistic =>
+
